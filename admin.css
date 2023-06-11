@@ -1,0 +1,130 @@
+/* Global Styles */
+html,
+body {
+  height: 100%;
+}
+
+.teh-lima {
+  color: white;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: "Courier New", monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #eaea00;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header{
+  background-color: #000;
+  color: #eaea00;
+  padding: 20px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+
+.logout-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #ff0000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-left: auto;
+  justify-content: space-between;
+  align-content: flex-end;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+/* Navigation Menu Styles */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #eaea00;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #eaea00;
+  color: #000;
+}
+
+/* Content Area Styles */
+table {
+  background-color: #444;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #555;
+  font-weight: 600;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 12px;
+}
+/* Footer Styles */
+
+#page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  flex: 1;
+}
+
+/* Rest of your CSS styles */
+
+/* Footer Styles */
+footer {
+  background-color: #000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
